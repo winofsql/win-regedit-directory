@@ -1,5 +1,5 @@
 # win-regedit-directory
 
-regedit.exe
+**regedit.exe**
 
 "C:\Windows\regedit.exe"
