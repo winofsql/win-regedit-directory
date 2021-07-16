@@ -30,3 +30,13 @@ Windows Registry Editor Version 5.00
   00,64,00,65,00,2e,00,65,00,78,00,65,00,22,00,20,00,22,00,25,00,56,00,22,00,\
   00,00
 ```
+
+```reg
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\usercmd]
+@="コマンドプロンプトをここで開きたい(&P)"
+
+[HKEY_CLASSES_ROOT\Directory\shell\usercmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+```
